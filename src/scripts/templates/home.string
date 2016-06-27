@@ -1,0 +1,149 @@
+<div class="homePage">
+  <header>
+    <ul>
+      <li>
+        <i class="yo-ico">&#xe631;</i>
+        <p>扫一扫</p>
+      </li>
+      <li>请输入书籍关键字</li>
+      <li>
+        <i class="yo-ico">&#x343b;</i>
+        <p>搜索</p>
+      </li>
+    </ul>
+  </header>
+
+  <section  spa-widget="scroll" data-scroll-id="homeHotScroll">
+    <div>
+      <div class="head">
+          <img src="/course-footballSNS/images/arrow.png" width="40" height="40"/>
+          <span>下拉刷新...</span>
+      </div>
+    <nav>
+      <div class="swiper-container" id="bannerSwip">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="/mymove/images/nav-slide1.png"/></div>
+            <div class="swiper-slide"><img src="/mymove/images/nav-slide2.png"/></div>
+            <div class="swiper-slide"><img src="/mymove/images/nav-slide1.png"/></div>
+        </div>
+        <!-- 如果需要分页器 -->
+        <div class="swiper-pagination"></div>
+      </div>
+    </nav>
+
+      <div class="homeMainModul" ms-repeat-value="bookList">
+        <div class="profilePhotoBox"><img ms-src="value.profilePhotoSrc"/></div>
+        <div class="authorBox">
+          <p class="name" ms-text="value.authorName"></p>
+          <p class="bookNum">发布了<i ms-text="value.bookNum"></i>本书</p>
+        </div>
+        <div class="swiper-container mainModul">
+          <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img ms-src="value.book[0].picSrc"/>
+                <p ms-text="value.book[0].bookName"></p>
+              </div>
+              <div class="swiper-slide" ms-class-hide="!value.book[1]">
+                <img ms-src="value.book[1].picSrc"/>
+                <p ms-text="value.book[1].bookName"></p>
+              </div>
+              <div class="swiper-slide" ms-class-hide="!value.book[2]">
+                <img ms-src="value.book[2].picSrc"/>
+                <p ms-text="value.book[2].bookName"></p>
+              </div>
+              <div class="swiper-slide" ms-class-hide="!value.book[3]">
+                <img ms-src="value.book[3].picSrc"/>
+                <p ms-text="value.book[3].bookName"></p>
+              </div>
+              <div class="swiper-slide">
+                <img src="/mymove/images/testsp/bookepMore.png"/>
+                <p>更多</p>
+              </div>
+          </div>
+        </div>
+        <div class="setPosition">
+          <i class="yo-ico">&#xe65c;</i>
+          <span ms-text="value.setPosM"></span>|<span ms-text="value.setPosS"></span>
+        </div>
+      </div>
+
+      <!-- <div class="homeMainModul">
+        <div class="profilePhotoBox"><img src="/mymove/images/testsp/profilePhoto.png"/></div>
+        <div class="authorBox">
+          <p class="name">天堂雨夜</p>
+          <p class="bookNum">发布了<i>39</i>本书</p>
+        </div>
+        <div class="swiper-container mainModul">
+          <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="/mymove/images/testsp/bookep1.png"/>
+                <p>财务管理(第一版)</p>
+              </div>
+              <div class="swiper-slide">
+                <img src="/mymove/images/testsp/bookep2.png"/>
+                <p>财务管理(第一版)</p>
+              </div>
+              <div class="swiper-slide">
+                <img src="/mymove/images/testsp/bookep1.png"/>
+                <p>财务管理(第一版)</p>
+              </div>
+              <div class="swiper-slide">
+                <img src="/mymove/images/testsp/bookep2.png"/>
+                <p>财务管理(第一版)</p>
+              </div>
+              <div class="swiper-slide">
+                <img src="/mymove/images/testsp/bookepMore.png"/>
+                <p>财务管理(第一版)</p>
+              </div>
+          </div>
+        </div>
+        <div class="setPosition">
+          <i class="yo-ico">&#xe65c</i>
+          <span>宜宾</span>|<span>宜宾市</span>
+        </div>
+      </div> -->
+
+      <!-- <div class="homeMainModul">
+        <div class="profilePhotoBox"><img src="/mymove/images/testsp/profilePhoto.png"/></div>
+        <div class="authorBox">
+          <p class="name">天堂雨夜</p>
+          <p class="bookNum">发布了<i>39</i>本书</p>
+        </div>
+        <div class="swiper-container mainModul">
+          <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="/mymove/images/testsp/bookep1.png"/>
+                <p>财务管理(第一版)</p>
+              </div>
+              <div class="swiper-slide">
+                <img src="/mymove/images/testsp/bookep2.png"/>
+                <p>财务管理(第一版)</p>
+              </div>
+              <div class="swiper-slide">
+                <img src="/mymove/images/testsp/bookep1.png"/>
+                <p>财务管理(第一版)</p>
+              </div>
+              <div class="swiper-slide">
+                <img src="/mymove/images/testsp/bookep2.png"/>
+                <p>财务管理(第一版)</p>
+              </div>
+              <div class="swiper-slide">
+                <img src="/mymove/images/testsp/bookepMore.png"/>
+                <p>财务管理(第一版)</p>
+              </div>
+          </div>
+        </div>
+        <div class="setPosition">
+          <i class="yo-ico">&#xe65c</i>
+          <span>宜宾</span>|<span>宜宾市</span>
+        </div>
+      </div> -->
+
+
+      <div class="foot">
+          <img src="/course-footballSNS/images/arrow.png" width="40" height="40"/>
+          <span>上拉加载更多...</span>
+      </div>
+    </div>
+  </section>
+</div>

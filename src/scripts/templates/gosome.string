@@ -1,0 +1,21 @@
+<!-- <div>gosome</div> -->
+<div class="gosomePage">
+  <header>
+    <ul>
+      <li></li>
+      <li>漂流书社</li>
+      <li>
+        <i class="yo-ico">&#x343b</i>
+      </li>
+    </ul>
+  </header>
+  <section>
+    <ul>
+      <li>推荐书社
+        <span>更多书社 &gt;</span>
+      </li>
+      <li>我的书社</li>
+    </ul>
+  </section>
+
+</div>

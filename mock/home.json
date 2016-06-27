@@ -1,0 +1,52 @@
+{
+  "res": true,
+  "errcode": -1,
+  "errmsg": "",
+  "data":[
+    {
+      "profilePhotoSrc":"/mymove/images/testsp/profilePhoto.png",
+      "authorName":"天堂雨夜",
+      "bookNum":"39",
+      "book":[
+        {
+          "picSrc":"/mymove/images/testsp/bookep1.png",
+          "bookName":"财务管理(第一版)"
+        },
+        {
+          "picSrc":"/mymove/images/testsp/bookep2.png",
+          "bookName":"财务管理(第一版)"
+        },
+        {
+          "picSrc":"/mymove/images/testsp/bookep1.png",
+          "bookName":"财务管理(第一版)"
+        },
+        {
+          "picSrc":"/mymove/images/testsp/bookep1.png",
+          "bookName":"财务管理(第一版)"
+        }
+      ],
+      "setPosM":"宜宾",
+      "setPosS":"宜宾市"
+    },
+    {
+      "profilePhotoSrc":"/mymove/images/testsp/profilePhoto.png",
+      "authorName":"天堂雨夜",
+      "bookNum":"39",
+      "book":[
+        {
+          "picSrc":"/mymove/images/testsp/bookep1.png",
+          "bookName":">财务管理(第一版)"
+        },
+        {
+          "picSrc":"/mymove/images/testsp/bookep1.png",
+          "bookName":">财务管理(第一版)"
+        }
+      ],
+      "setPosM":"宜宾",
+      "setPosS":"宜宾市"
+    }
+
+  ]
+
+
+}
